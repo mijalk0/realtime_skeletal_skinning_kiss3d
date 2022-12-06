@@ -1,0 +1,14 @@
+[package]
+name = "realtime_skeletal_skinning_kiss3d"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Used to draw (akin to libigl)
+kiss3d = "0.35"
+# Used to load mesh/animation data
+collada = "0.15"
+# Needed for threading
+rayon = "1"
