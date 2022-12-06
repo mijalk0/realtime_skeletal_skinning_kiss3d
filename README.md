@@ -1,6 +1,11 @@
 # Realtime Skeletal Skinning with `kiss3d`
 Realtime Skeletal Skinning implemented in Rust, method from [Binh Huy Le & and Jessica K. Hodgins 2016](https://binh.graphics/papers/2016s-cor/)
 
+# Preview
+![image](https://github.com/mijalk0/realtime_skeletal_skinning_kiss3d/blob/master/preview.png)
+
+The grey mannequin is rendered with Linear Blend Skinning. The yellow mannequin uses the Realtime Skeletal Skinning technique. As a result, it has less artifacts around the elbows and similar creases.
+
 # Install Rust
 
 Ensure `rustc` and `cargo` are installed. If running Unix/Linux/MacOS, issue
